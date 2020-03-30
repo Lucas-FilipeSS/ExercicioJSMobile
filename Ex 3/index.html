@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ex 3</title>
+  <link rel="stylesheet" href="/global.css" />
+  <script>
+    function vibrateSimple() {
+      navigator.vibrate(200);
+    }
+
+    function vibratePattern() {
+      navigator.vibrate([100, 200, 200, 200, 500]);
+    }
+
+    function vibrateTres() {
+      navigator.vibrate([200, 300, 300, 300, 600]);
+    }
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <button class="button" onclick="vibrateSimple()">Vibrar por 200 ms</button>
+    <button class="button" onclick="vibratePattern()">Vibrar com padrão</button>
+    <button class="button" onclick="vibraTres()">Minha Vibração</button>
+  </div>
+  <script>
+    function vibrateSimple() {
+      navigator.vibrate(200);
+    }
+
+    function vibratePattern() {
+      navigator.vibrate([100, 200, 200, 200, 500]);
+    }
+
+    function vibrateTres() {
+      navigator.vibrate([200, 300, 300, 300, 600]);
+    }
+  </script>
+</body>
+
+</html>
